@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from services_quiz_srv/srv/Turn.srv
+// generated code does not contain a copyright notice
+
+
+module services_quiz_srv {
+  module srv {
+    @verbatim (language="comment", text=
+      "custom file to create the specific interface ")
+    struct Turn_Request {
+      @verbatim (language="comment", text=
+        "label to know which side turns")
+      string turn;
+
+      @verbatim (language="comment", text=
+        "value to determinate the angular velocity")
+      float angular_velocity;
+
+      @verbatim (language="comment", text=
+        "value to determinate how long the robot rotates")
+      float time;
+    };
+    struct Turn_Response {
+      @verbatim (language="comment", text=
+        "to notify client the state of the service")
+      boolean success;
+    };
+  };
+};

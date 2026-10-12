@@ -1,0 +1,4 @@
+# custom file to create the specific interface 
+string turn  # label to know which side turns
+float32 angular_velocity # value to determinate the angular velocity
+float32 time # value to determinate how long the robot rotates

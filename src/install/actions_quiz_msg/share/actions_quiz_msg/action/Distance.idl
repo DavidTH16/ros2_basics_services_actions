@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from actions_quiz_msg/action/Distance.action
+// generated code does not contain a copyright notice
+
+
+module actions_quiz_msg {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct Distance_Goal {
+      double x;
+
+      double y;
+
+      double yaw;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct Distance_Result {
+      boolean success;
+
+      double distance_traveled;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Distance_Feedback {
+      double distance_left;
+    };
+  };
+};
